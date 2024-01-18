@@ -77,12 +77,23 @@ input{
 }
 
 .login:hover{
-transform: scale(1.2);
-transition-duration: 0.5s;
-box-shadow: 0px 0px 5px white;
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 5px white;
 }
 
 a{
     color: white;
     text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #012E40;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px;
 }
